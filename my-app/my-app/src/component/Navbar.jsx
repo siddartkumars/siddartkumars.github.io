@@ -1,22 +1,9 @@
 import React,{Component} from 'react'
-
-export default class Home extends Component {
+// TODO: Change navbar to fixed to static on top.
+export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-        <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/animate.css" />
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-        <link rel="stylesheet" href="assets/css/aos.css" />
-        <link rel="stylesheet" href="assets/css/ionicons.min.css" />
-        <link rel="stylesheet" href="assets/css/flaticon.css" />
-        <link rel="stylesheet" href="assets/css/icomoon.css" />
-        <link rel="stylesheet" href="assets/css/style.css" />
         <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
           <div className="container">
             <a className="navbar-brand" href="index.html">SK</a>
