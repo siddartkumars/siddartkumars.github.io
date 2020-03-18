@@ -7,6 +7,9 @@ import Home from './component/Home';
 import Aboutme from './component/Aboutme';
 import Skills from './component/Skills';
 import Footer from './component/Footer';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+// import '../node_modules/fortawesome/free-brand-svg-icons'; 
+
 
 
 

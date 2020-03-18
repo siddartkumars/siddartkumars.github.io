@@ -1,4 +1,8 @@
 import React,{Component} from 'react'
+import {faAws, faRProject} from "@fortawesome/free-brands-svg-icons"
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+
 
 export default class Skills extends Component {
     render() {
@@ -6,6 +10,8 @@ export default class Skills extends Component {
             <div>
             <section className="ftco-section bg-light" id="skills-section">
             <div className="container">
+              
+            {/* <div><i className="fab fa-aws"></i></div> */}
                 <div className="row justify-content-center pb-5">
                   <div className="col-md-12 heading-section text-center">
                     <span className="subheading">Skills</span>
@@ -14,86 +20,42 @@ export default class Skills extends Component {
                   </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
-                    <div className="media block-6 services d-block">
-                        <div className="icon"><span className="flaticon-analysis" /></div>
+                    <div className="col-md-3">
+                    <div className="media block-3 services d-block">
+                        <div className="icon skill-icon"> <FontAwesomeIcon icon={faAws}/> </div>
                         <div className="media-body">
                         <h3 className="heading mb-3">Web Design</h3>
                         <p>A small river named Duden flows by their place and supplies.</p>
                         </div>
                     </div> 
                     </div>
-                    <div className="col-md-6">
-                    <div className="media block-6 services d-block">
-                        <div className="icon"><span className="flaticon-analysis" /></div>
+                    <div className="col-md-3">
+                    <div className="media block-3 services d-block">
+                        <div className="icon"><FontAwesomeIcon icon={faRProject}/></div>
                         <div className="media-body">
                         <h3 className="heading mb-3">Web Application</h3>
                         <p>A small river named Duden flows by their place and supplies.</p>
                         </div>
                     </div> 
                     </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6 animate-box">
-                    <div className="progress-wrap ">
-                      <h3>Photoshop</h3>
-                      <div className="progress">
-                        <div className="progress-bar color-1" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}}>
-                          <span>75%</span>
+                    <div className="col-md-3">
+                    <div className="media block-3 services d-block">
+                        <div className="icon"><FontAwesomeIcon icon={faChartLine}/></div>
+                        <div className="media-body">
+                        <h3 className="heading mb-3">Web Application</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
                         </div>
-                      </div>
+                    </div> 
                     </div>
-                  </div>
-                  <div className="col-md-6 animate-box">
-                    <div className="progress-wrap ">
-                      <h3>jQuery</h3>
-                      <div className="progress">
-                        <div className="progress-bar color-2" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                          <span>60%</span>
+                    <div className="col-md-3">
+                    <div className="media block-3 services d-block">
+                        <div className="icon"><FontAwesomeIcon icon={faRProject}/></div>
+                        <div className="media-body">
+                        <h3 className="heading mb-3">Web Application</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
                         </div>
-                      </div>
+                    </div> 
                     </div>
-                  </div>
-                  <div className="col-md-6 animate-box">
-                    <div className="progress-wrap ">
-                      <h3>HTML5</h3>
-                      <div className="progress">
-                        <div className="progress-bar color-3" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{width: '85%'}}>
-                          <span>85%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 animate-box">
-                    <div className="progress-wrap ">
-                      <h3>CSS3</h3>
-                      <div className="progress">
-                        <div className="progress-bar color-4" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}}>
-                          <span>90%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 animate-box">
-                    <div className="progress-wrap ">
-                      <h3>WordPress</h3>
-                      <div className="progress">
-                        <div className="progress-bar color-5" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{width: '70%'}}>
-                          <span>70%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 animate-box">
-                    <div className="progress-wrap ">
-                      <h3>SEO</h3>
-                      <div className="progress">
-                        <div className="progress-bar color-6" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                          <span>80%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div className="row justify-content-center py-5 mt-5">
                   <div className="col-md-12 heading-section text-center ">
