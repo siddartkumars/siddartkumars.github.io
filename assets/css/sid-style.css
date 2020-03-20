@@ -1,0 +1,11 @@
+#home-section{
+    background-image: url('/assets/images/home-bg.gif');    
+}
+
+#home-section, #about-section, #skills-section, #experience-section, #projects-section {
+    height: 100vh;
+}
+
+.home-socials-font {
+    padding: 1rem;
+}
