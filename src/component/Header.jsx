@@ -17,6 +17,7 @@ export default class Header extends Component {
             <link rel="stylesheet" href="assets/css/flaticon.css" />
             <link rel="stylesheet" href="assets/css/icomoon.css" />
             <link rel="stylesheet" href="assets/css/style.css" /> 
+            <link rel="stylesheet" href="assets/css/sid-style.css" /> 
           </div> 
         )
     }

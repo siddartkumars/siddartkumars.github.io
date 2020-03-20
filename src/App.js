@@ -3,13 +3,13 @@ import './App.css';
 
 import Header from './component/Header';
 import Navbar from './component/Navbar';
-import Home from './component/Home';
+import LandingPage from './component/LandingPage';
 import Aboutme from './component/Aboutme';
 import Skills from './component/Skills';
 import Footer from './component/Footer';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-// import '../node_modules/fortawesome/free-brand-svg-icons'; 
-
+import Projects from './component/Projects';
+import Experience from './component/Experience';
 
 
 
@@ -18,9 +18,11 @@ function App() {
     <div className="App">
       <Header></Header>
       <Navbar></Navbar>
-      <Home></Home>
+      <LandingPage></LandingPage>
       <Aboutme></Aboutme>
       <Skills></Skills>
+      <Experience></Experience>
+      <Projects></Projects>
       <Footer></Footer>
     </div>  
   );

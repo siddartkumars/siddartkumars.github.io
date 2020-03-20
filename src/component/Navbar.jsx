@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 // TODO: Change navbar to fixed to static on top.
+// TODO: Fix mobile collapsed menu bar
 export default class Navbar extends Component {
   render() {
     return (
@@ -12,11 +13,10 @@ export default class Navbar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="ftco-nav">
               <ul className="navbar-nav nav ml-auto">
-                <li className="nav-item"><a href="#home-section" className="nav-link"><span>Home</span></a></li>
                 <li className="nav-item"><a href="#about-section" className="nav-link"><span>About</span></a></li>
                 <li className="nav-item"><a href="#skills-section" className="nav-link"><span>Skills</span></a></li>
+                <li className="nav-item"><a href="#experience-section" className="nav-link"><span>Experience</span></a></li>
                 <li className="nav-item"><a href="#projects-section" className="nav-link"><span>Projects</span></a></li>
-                <li className="nav-item"><a href="#blog-section" className="nav-link"><span>My Blog</span></a></li>
                 <li className="nav-item"><a href="#contact-section" className="nav-link"><span>Contact</span></a></li>
               </ul>
             </div>

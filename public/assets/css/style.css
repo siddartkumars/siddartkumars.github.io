@@ -8822,7 +8822,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400; }
 
 .ftco-hireme {
-  background: #0075f6; }
+  background: #000000; }
   .ftco-hireme h2 {
     color: #fff;
     font-size: 40px;
@@ -8953,7 +8953,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
