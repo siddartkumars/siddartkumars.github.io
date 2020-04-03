@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './assets/css/style.css';
+import './assets/css/sid-style.css';
 
 import Header from './component/Header';
 import Navbar from './component/Navbar';
@@ -16,14 +18,16 @@ import Experience from './component/Experience';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Navbar></Navbar>
-      <LandingPage></LandingPage>
-      <Aboutme></Aboutme>
-      <Skills></Skills>
-      <Experience></Experience>
-      <Projects></Projects>
-      <Footer></Footer>
+      <div id="portfolio-content">
+        <Header></Header>
+        <Navbar></Navbar>
+        <LandingPage></LandingPage>
+        <Aboutme></Aboutme>
+        <Skills></Skills>
+        <Experience></Experience>
+        <Projects></Projects>
+        <Footer></Footer>
+      </div>
     </div>  
   );
 }

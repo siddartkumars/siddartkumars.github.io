@@ -1,11 +1,29 @@
 import React,{Component} from 'react'
 
+import {Client} from 'node-rest-client';
+var api_call_client= new Client();
+var repo_list = 10;
+
+// TODO: Fix the GitHub API
 export default class Projects extends Component {
+    constructor(props) {
+        super(props);
+        api_call_client.get("https://api.github.com/users/yuujay/repos", function (data, response) {
+            repo_list = data;
+            console.log(repo_list);
+        });
+        this.state = {list_prop: "LISTTTTTTTT"};
+        this.state = {date: new Date()};
+    }
     render() {
         return (
             <div>
                 <section className="ftco-about ftco-counter img ftco-section" id="projects-section">
-                    <div className="row">
+                <h2>{this.state.list_prop}</h2>
+                <h2>It is {this.state.date.toLocaleTimeString()}</h2>
+                    <span className="subheading">What I Do</span>
+                    <h2 className="mb-4">Some of my highlight projects</h2>
+                    <div className="row">    
                         <div className="col-md-4 text-center d-flex ">
                             <div className="services-1">
                             <span className="icon">
@@ -49,5 +67,5 @@ export default class Projects extends Component {
                 </section>
             </div>
         )
-    }
+    } 
 }

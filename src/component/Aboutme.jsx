@@ -9,8 +9,7 @@ export default class Aboutme extends Component {
                 <div className="row d-flex">
                   <div className="col-md-6 col-lg-5 d-flex">
                     <div className="img-about img d-flex align-items-stretch">
-                      <div className="overlay" />
-                      <div className="img d-flex align-self-stretch align-items-center" style={{backgroundImage: 'url(assets/images/about-me-sidd.JPG)'}}>
+                      <div className="img d-flex align-self-stretch align-items-center" style={{backgroundImage: 'url(assets/images/about-me-sidd.JPG)', height: '80vh', width: '100vh'}}>
                       </div>
                     </div>
                   </div>

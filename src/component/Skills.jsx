@@ -8,7 +8,7 @@ export default class Skills extends Component {
     render() {
         return (
             <div>
-            <section className="ftco-section bg-light" id="skills-section">
+            <section className="ftco-section" id="skills-section">
             <div className="container">
                 <div className="row justify-content-center pb-5">
                   <div className="col-md-12 heading-section text-center">

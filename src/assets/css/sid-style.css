@@ -33,7 +33,7 @@ body {
 }
 
 
-/* Animation of Landing Section */
+/* Animation */
 
 @keyframes fadeInUp {
     from {
@@ -73,5 +73,3 @@ body {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
-
-/* End of Animation - Landing Section */
