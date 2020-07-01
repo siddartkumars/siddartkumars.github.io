@@ -26,6 +26,7 @@ function App() {
         <Skills></Skills>
         <Experience></Experience>
         <Projects></Projects>
+        <Blog></Blog>
         <Footer></Footer>
       </div>
     </div>  
