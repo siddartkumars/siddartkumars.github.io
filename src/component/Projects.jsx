@@ -63,6 +63,19 @@ export default class Projects extends Component {
                             </div>
                             </div>
                         </div>
+                        <div className="col-md-4 text-center d-flex ">
+                            <div className="services-1">
+                            <span className="icon">
+                                <i className="flaticon-flasks" />
+                            </span>
+                            <div className="desc">
+                                <h3 className="mb-5"><a href="#">Avatar</a></h3>
+                                <h4>Water Bending</h4>
+                                <h4>Air</h4>
+                                <h4>Fire</h4>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>

@@ -78,6 +78,62 @@ export default class Experience extends Component {
                     est.
                   </p>
                 </TimelineItem>
+                <TimelineItem
+                  key="003"
+                  dateText="08/2017 – 05/2020"
+                  dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+                  bodyContainerStyle={{
+                    background: '#ddd',
+                    padding: '20px',
+                    borderRadius: '8px',
+                    boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                  }}
+                >
+                  <h3 style={{ color: '#61b8ff' }}>Masters in Information Management/Data Science</h3>
+                  <h4 style={{ color: '#61b8ff' }}>Syracuse University</h4>
+                  <p>
+                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+                    est.
+                  </p>
+                  <p>
+                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+                    est.
+                  </p>
+                </TimelineItem>
+                <TimelineItem
+                  key="004"
+                  dateText="08/2013 – 05/2017"
+                  dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+                  bodyContainerStyle={{
+                    background: '#ddd',
+                    padding: '20px',
+                    borderRadius: '8px',
+                    boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                  }}
+                >
+                  <h3 style={{ color: '#61b8ff' }}>Bachelors in Computer Science& Engineering</h3>
+                  <h4 style={{ color: '#61b8ff' }}>Anna University</h4>
+                  <p>
+                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+                    est.
+                  </p>
+                  <p>
+                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+                    exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+                    nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+                    reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+                    est.
+                  </p>
+                </TimelineItem>
               </Timeline>
               </div>                
             </div>

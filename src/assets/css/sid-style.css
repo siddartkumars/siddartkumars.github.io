@@ -3,9 +3,9 @@
 } */
 
 body {
-    background: url('/assets/images/sid-bg.svg') no-repeat left top ;
+    background: url('/assets/images/Pattern-Randomized.svg') no-repeat left top ;
     -webkit-background-size: cover !important;
-    background-repeat: no-repeat !important;
+    /* background-repeat: no-repeat !important; */
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
@@ -26,6 +26,7 @@ body {
 
 #home-section, #about-section, #skills-section,  #projects-section {
     height: 100vh;
+    padding: 45px;
 }
 
 .home-socials-font {

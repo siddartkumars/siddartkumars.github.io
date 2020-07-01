@@ -7,7 +7,7 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 export default class Footer extends Component {
     render() {
         return (
-            <section className="ftco-section ftco-hireme" id="contact-section">
+            <section className="ftco-section" id="contact-section">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-9 d-flex align-items-center ">
@@ -23,11 +23,8 @@ export default class Footer extends Component {
                                 <div className="icon skill-icon"> <FontAwesomeIcon icon={faEnvelope}/> </div>
                             </a>
                             <p className="home-socials-font">
-                                Designed & Developed by
+                                Designed & Developed by Siddarth
                             </p>
-                            <h2>    
-                                    Sid Kumar
-                            </h2>
                         </div>
                     </div>
                 </div>
